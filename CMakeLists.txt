@@ -178,7 +178,7 @@ option(PARAVIEW_USE_RAYTRACING "Build ParaView with OSPRay and/or OptiX ray Trac
 option(PARAVIEW_ENABLE_LOGGING "Enable logging support." ON)
 mark_as_advanced(PARAVIEW_ENABLE_LOGGING)
 
-option(PARAVIEW_ENABLE_PYTHON "Enable/Disable Python scripting support" OFF)
+option(PARAVIEW_ENABLE_PYTHON "Enable/Disable Python scripting support" ON)
 
 set(paraview_web_default ON)
 if (PARAVIEW_ENABLE_PYTHON AND WIN32)
